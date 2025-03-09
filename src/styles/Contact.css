@@ -1,0 +1,26 @@
+section{
+    background-color: whitesmoke;
+    color: #06283D;
+    
+  }
+  
+  h1{
+  
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  p{
+  
+    font-family: "PT Serif", serif;
+    font-style: small;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+  }
+  
+  

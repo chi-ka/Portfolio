@@ -1,0 +1,59 @@
+.gradient-background {
+    background: linear-gradient(90deg, #dde2e6, #2132B2, #6C5B7B)0%, 20%, transparent;
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+    
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  body{
+    background-color: whitesmoke;
+
+  }
+  
+  h1{
+  
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+  }
+  
+  
+  #header{
+    border: none;
+    color:whitesmoke;
+    
+  }
+  
+  .lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
+  .girlcoding {
+    border: 0px;
+    border-radius: 50%;
+    height: 20em;
+    width: 20em;
+  }
