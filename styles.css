@@ -1,0 +1,99 @@
+.gradient-background {
+    background: linear-gradient(300deg, #dde2e6, #2132B2, #6C5B7B);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  body{
+    background-color: whitesmoke;
+    color: #06283D;
+    
+  }
+  
+  h1{
+  
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+  }
+  
+  
+  #header{
+    border: none;
+    color:whitesmoke;
+    background-image: "./assets/images/textured.png";
+  }
+  
+  .lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
+  .girlcoding {
+    border: 0px;
+    border-radius: 50%;
+    height: 20em;
+    width: 20em;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  .carddesign{
+    background-color: #172483;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+  }
+  
+  .card i {
+    margin-bottom: 1rem;
+  }
+  
+  #skills {
+    background-color: #f8f9fa;
+  }
+  
+  .portfolicard{
+    background-color: #244760;
+  }
+   
+  
+  
+  .progress{
+    height: 1em;
+  }
